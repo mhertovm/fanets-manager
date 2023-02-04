@@ -1,1 +1,18 @@
- 
+.cank{
+  display: flex;
+  flex-direction: column;
+}
+.analysis{
+  padding: 10px;
+  display: flex;
+}
+.analysis div{
+  padding: 10px;
+}
+.edit{
+  display: flex;
+  flex-direction: column;
+}
+.edit input{
+  margin: 10px;
+}

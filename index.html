@@ -5,21 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="analysis">
+        <div>
+            <p>Բյուջեի տեսակ</p>
+            <div>Սննդի ծախս</div>
+            <div>Մեքենայի ծախս</div>
+            <div>Այլ ծախս</div>
+            <div>Խնայողություն</div>
+        </div>
+        <div>
+            <p>Բալանս</p>
+            <div id="mutq1">0</div>
+            <div id="mutq2">0</div>
+            <div id="mutq3">0</div>
+            <div id="mutq4">0</div>
+        </div>
+        <div class="edit">
+            <p>փոփ.</p>
+            <input id="edit1" type="number"></input>
+            <input id="edit2" type="number"></input>
+            <input id="edit3" type="number"></input>
+            <input id="edit4" type="number"></input>
+            <button id="editqanak">edit</button>
+        </div>
+        <div>
+            <p>Քանակը</p>
+            <div id="qanak1">50</div>
+            <div id="qanak2">25</div>
+            <div id="qanak3">10</div>
+            <div id="qanak4">15</div>
+        </div>
+    </div>
     <div>
-        <input id="salary">
-        <span>Աշխատավարձի մնացորդ</span>
-        <span id="quantity">0</span>
+        <input id="salary" type="number">
+        <button id="salaryadd">OK</button>
+        <span>Մուտք բալանս</span>
+        <span id="quantity">0 AMD</span>
     </div>
     <div>
         <div>
-            <input id="inputValue">
+            <input id="inputValue" type="number">
+            <button id="expenseadd">OK</button>
             <span>Ծախսի հանրագումար</span>
-            <span id="expenseinput">0</span>
+            <span id="expenseinput">0 AMD</span>
         </div>
-        <button id="expenseadd">OK</button>
+        <div id="cank" class="cank">
+
+        </div>
     </div>
+
     <script src="./script.js"></script>
 </body>
 </html>
