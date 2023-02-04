@@ -18,6 +18,7 @@ const mutq1 = document.getElementById("mutq1");
 const mutq2 = document.getElementById("mutq2");
 const mutq3 = document.getElementById("mutq3");
 const mutq4 = document.getElementById("mutq4");
+let time = new Date();
 
 const cankData = [];
 const caxsdata = [];
@@ -57,7 +58,7 @@ btnexpense.addEventListener("click", function(){
     for(let j = 0; j < caxsdata.length; j++){
         cankData.push(document.createElement("span"));
         cank.append(cankData[j]);
-        cankData[j].textContent = caxsdata[j] + " AMD";    
+        cankData[j].textContent =time + "-" + caxsdata[j] + " AMD";    
     }
 });
 
