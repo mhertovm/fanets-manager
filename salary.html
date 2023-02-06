@@ -1,0 +1,43 @@
+<!-- Աշխատակիցների աշխատավարձի հաշվարկման 
+ծրագիր: Անհրաժեշտ է հաշվարկել  n ծրագրավորողներից բաղկացած  գրասենյակի աշխատավարձերը ներառյալ տնօրենի։ 
+a – յուրաքանչյուր ծրագրավորողի աշխատավարձը
+K - դրամի փոխարժեք
+S - շահույթ
+D– տնօրենի հավելավճարը
+N- աշխատակիցների քանակը
+Յուրաքանչյուր աշխատակցի աշխատավարձը կհաշվարկենք
+a=(S*K-D)/N բանաձևով։
+
+ заработок бригадира по формуле b=a+1000.-->
+<html>
+<head>
+<title>Աշխատակիցների աշխատավարձի հաշվարկ</title>
+
+</head>
+<body>
+<FORM name="form1">
+Շահույթ $ 
+<input type="text" size=5 name="S1"><hr>
+Դրամի փոխարժեք
+<input type="text" size=5 name="K1">
+<hr>Տնօրենի հավելավճար
+<input type="text" size=5 name="D1">
+<hr>
+Աշխատակիցների քանակը
+<input type="text" size=5 name="N1"><hr>
+<input type="button" value="Հաշվել"
+OnClick="document.form1.res.value=F1();
+document.form1.res1.value=F1()+Number(document.form1.D1.value)">
+<br>
+Կրտսեր ծրագրավորողի աշխատավարձը
+<input type="text" name="res" size=4>
+<br>
+Տնօրենի աշխատավարձը
+<input type="text" name="res1" size=4>
+<br>
+<input type="reset" value="Թարմացնել">
+
+</FORM>
+<script src="main.js"></script>
+</body>
+</html>
