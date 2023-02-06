@@ -4,7 +4,7 @@ const btnsalary = document.getElementById("salaryadd");
 const salary = document.querySelector("#salary");
 const quantity = document.getElementById("quantity");
 const expenseinput = document.getElementById("expenseinput");
-const cank = document.getElementById("cank");
+const edit = document.getElementById("edit")
 const btnedit = document.getElementById("editqanak");
 const qanak1 = document.getElementById("qanak1");
 const qanak2 = document.getElementById("qanak2");
@@ -61,10 +61,13 @@ btnsalary.addEventListener("click", function (){
     mutq2.textContent = qanak2.textContent * sum / 100
     mutq3.textContent = qanak3.textContent * sum / 100
     mutq4.textContent = qanak4.textContent * sum / 100
+    salary.value = "";
+    inputValu.value = "";
+
 });
 
 
-
+let click = 1;
 btnedit.addEventListener("click", function(){
     if (+edit1.value + +edit2.value + +edit3.value + +edit4.value == "100"){
     qanak1.textContent = +edit1.value;
@@ -72,5 +75,5 @@ btnedit.addEventListener("click", function(){
     qanak3.textContent = +edit3.value;
     qanak4.textContent = +edit4.value;
     }
-    btnsalary.addEventListener("click")
+
 });
