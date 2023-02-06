@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding:0;
+ box-sizing: border-box;
+ }
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+h1 {
+    background-color: blanchedalmond;
+    text-align: center;
+    height: 70px;
+    
+    
+}
+body{
+    background-color: coral ;   
+}
+input{
+    display:block;
+}
+label{
+    display: block;
+}
+.cank{
+    display: flex;
+    flex-direction: column;
+}
