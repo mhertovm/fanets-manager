@@ -19,6 +19,7 @@ const mutq2 = document.getElementById("mutq2");
 const mutq3 = document.getElementById("mutq3");
 const mutq4 = document.getElementById("mutq4");
 const sumall = document.getElementById("sum");
+const cank = document.getElementById("cank")
 let time = new Date();
 
 const cankData = [];

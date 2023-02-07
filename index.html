@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="contener">
     <div class="analysis">
         <div>
             <p>Բյուջեի տեսակ</p>
@@ -18,7 +19,7 @@
             <div>Մնացորդ</div>
         </div>
         <div>
-            <p>Բալանս</p>
+            <p>Բալանս (AMD)</p>
             <div id="mutq1">0</div>
             <div id="mutq2">0</div>
             <div id="mutq3">0</div>
@@ -27,14 +28,14 @@
         </div>
         <div class="edit" id="edit">
             <p>փոփ.</p>
-            <input id="edit1" type="number"></input>
-            <input id="edit2" type="number"></input>
-            <input id="edit3" type="number"></input>
-            <input id="edit4" type="number"></input>
+            <input id="edit1" type="number" placeholder="%"></input>
+            <input id="edit2" type="number" placeholder="%"></input>
+            <input id="edit3" type="number" placeholder="%"></input>
+            <input id="edit4" type="number" placeholder="%"></input>
             <button id="editqanak">edit</button>
         </div>
         <div>
-            <p>Քանակը</p>
+            <p>Քանակը (%)</p>
             <div id="qanak1">50</div>
             <div id="qanak2">25</div>
             <div id="qanak3">10</div>
@@ -56,10 +57,10 @@
             <span>AMD</span>
         </div>
         <div id="cank" class="cank">
-            <div id="mher"></div>
+            
         </div>
     </div>
-
+    </div>
     <script src="./script.js"></script>
 </body>
 </html>
